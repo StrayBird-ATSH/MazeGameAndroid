@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MazeGame</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="up_button">up</string>
+    <string name="left_button">left</string>
+    <string name="right_button">right</string>
+    <string name="crack_button">crack</string>
+    <string name="info_button">info</string>
+    <string name="back_button">back</string>
+    <string name="down_button">down</string>
+    <string name="character_image">character_image</string>
+    <string name="treasure_image">treasure image</string>
+    <string name="background_image">background</string>
+    <string name="story_mode">Story Mode</string>
+    <string name="sandbox_mode">Sandbox Mode</string>
+    <string name="monster_image">monster_image</string>
+    <string name="title_activity_sandbox_level_picker">Level Picker</string>
+    <string name="foot_print">foot_print</string>
+    <string name="quit_and_save_menu">Quit&amp;Save</string>
+    <string name="quit_without_save_menu">Quit</string>
+    <string name="restore_process">Restore Process</string>
+    <string name="confirm">Confirm</string>
+    <string name="footprint_length">Please select a wanted footprint length</string>
+    <string name="user_name">Please input your user name</string>
+    <string name="ranking_list">Ranking List</string>
+    <string name="more">More</string>
+    <string name="about">About</string>
+    <string name="instruction">Instructions</string>
+</resources>

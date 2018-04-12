@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        style="?metaButtonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_weight="3"
+        android:background="@color/black_overlay"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/upButton"
+            android:layout_width="90dp"
+            android:layout_height="36dp"
+            android:layout_above="@+id/crackButton"
+            android:layout_alignStart="@+id/crackButton"
+            android:text="@string/up_button" />
+
+        <Button
+            android:id="@+id/leftButton"
+            android:layout_width="90dp"
+            android:layout_height="36dp"
+            android:layout_alignBottom="@+id/crackButton"
+            android:layout_toStartOf="@+id/crackButton"
+            android:text="@string/left_button" />
+
+        <Button
+            android:id="@+id/rightButton"
+            android:layout_width="90dp"
+            android:layout_height="36dp"
+            android:layout_alignBottom="@+id/crackButton"
+            android:layout_toEndOf="@+id/crackButton"
+            android:text="@string/right_button" />
+
+        <Button
+            android:id="@+id/downButton"
+            android:layout_width="90dp"
+            android:layout_height="35dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/down_button" />
+
+        <Button
+            android:id="@+id/crackButton"
+            android:layout_width="90dp"
+            android:layout_height="36dp"
+            android:layout_above="@+id/downButton"
+            android:layout_centerHorizontal="true"
+            android:text="@string/crack_button" />
+
+        <Button
+            android:id="@+id/infoButton"
+            android:layout_width="90dp"
+            android:layout_height="35dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:text="@string/info_button" />
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="90dp"
+            android:layout_height="35dp"
+            android:layout_alignParentBottom="true"
+            android:text="@string/back_button" />
+    </RelativeLayout>
+</LinearLayout>

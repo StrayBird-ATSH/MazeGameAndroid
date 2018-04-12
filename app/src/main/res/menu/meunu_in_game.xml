@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/quit_and_save"
+        android:title="@string/quit_and_save_menu" />
+    <item
+        android:id="@+id/quit_without_save"
+        android:title="@string/quit_without_save_menu" />
+</menu>

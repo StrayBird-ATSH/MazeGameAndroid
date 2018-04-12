@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="fdu.ss.wangchen.mazeGame.SandboxLevelPickerActivity"
+    tools:showIn="@layout/activity_sandbox_level_picker">
+
+    <NumberPicker
+        android:id="@+id/number_selector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:theme="@style/AppTheme"
+        android:visibility="visible">
+
+    </NumberPicker>
+
+    <Button
+        android:id="@+id/selectMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/sandbox_mode"
+        android:theme="@style/Base.Widget.AppCompat.Button" />
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/story_mode"
+            android:icon="@drawable/game_32px_1197458"
+            android:title="@string/story_mode" />
+        <item
+            android:id="@+id/sandbox_mode"
+            android:icon="@drawable/u_sandbox_128px_545037"
+            android:title="@string/sandbox_mode" />
+        <item
+            android:id="@+id/restore_process"
+            android:icon="@drawable/process"
+            android:title="@string/restore_process" />
+        <item
+            android:id="@+id/ranking_list"
+            android:icon="@drawable/ranking_783px_1207791"
+            android:title="@string/ranking_list" />
+    </group>
+
+    <item android:title="@string/more">
+        <menu>
+            <item
+                android:id="@+id/instructions"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/instruction" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/about"
+                android:title="@string/about" />
+
+        </menu>
+    </item>
+
+</menu>

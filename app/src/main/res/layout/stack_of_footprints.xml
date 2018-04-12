@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/footprint_1"
+        android:layout_width="24dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/foot_print"
+        android:src="@drawable/foot_print"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/footprint_2"
+        android:layout_width="24dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/foot_print"
+        android:src="@drawable/foot_print"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/footprint_3"
+        android:layout_width="24dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/foot_print"
+        android:src="@drawable/foot_print"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/footprint_4"
+        android:layout_width="24dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/foot_print"
+        android:src="@drawable/foot_print"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/footprint_5"
+        android:layout_width="24dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/foot_print"
+        android:src="@drawable/foot_print"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/footprint_6"
+        android:layout_width="24dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/foot_print"
+        android:src="@drawable/foot_print"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/footprint_7"
+        android:layout_width="24dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/foot_print"
+        android:src="@drawable/foot_print"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/footprint_8"
+        android:layout_width="24dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/foot_print"
+        android:src="@drawable/foot_print"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/footprint_9"
+        android:layout_width="24dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/foot_print"
+        android:src="@drawable/foot_print"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/footprint_10"
+        android:layout_width="24dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/foot_print"
+        android:src="@drawable/foot_print"
+        android:visibility="invisible" />
+</FrameLayout>
